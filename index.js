@@ -42,7 +42,7 @@ document.addEventListener('DOMContentLoaded', function () {
       entries.forEach(entry => {
           if(entry.isIntersecting){
             console.log("NOW");
-              video.src = video.getAttribute('data-src');
+              video.src = "https://dl.dropboxusercontent.com/scl/fi/18zqjtbadi2fljsdiu6ms/pexels-kindel-media-7578552-Original.mp4?rlkey=5c9vr1w7yeq57y4bup2nnefvg&dl=1";
               observer.unobserve(video);
           }
       });
